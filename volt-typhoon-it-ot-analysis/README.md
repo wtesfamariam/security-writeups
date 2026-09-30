@@ -48,28 +48,28 @@ The geopolitical situation and the current intelligence threat landscape signifi
 Attackers can operate from countries where they face no repercussions, such as the Chinese group Volt Typhoon. The use of AI makes attacks more sophisticated and rapid, allowing them to spread quickly across multiple systems. 
 This underscores the importance of international cooperation. Consequently, national defence strategies must focus on regularly updating security measures, maintaining readiness to respond swiftly to incidents, and collaborating with other nations and organizations to halt threats before they result in severe consequences (Microsoft, 2025).
 ## References
-Anson, S. (2020). Applied Incident Response. Wiley.
-CISA. (2023). People's Republic of China state-sponsored cyber actor living off the land to evade detection (AA23-144A). 
+- Anson, S. (2020). Applied Incident Response. Wiley.
+- CISA. (2023). People's Republic of China state-sponsored cyber actor living off the land to evade detection (AA23-144A). 
 https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-144a
-CISA. (2023, June 8). Foundations of OT cybersecurity: Asset inventory guidance for owners and operators. 
+- CISA. (2023, June 8). Foundations of OT cybersecurity: Asset inventory guidance for owners and operators. 
 https://www.cisa.gov/resources-tools/resources/foundations-ot-cybersecurity-asset-inventory-guidance-owners-and-operators
-CISA. (2024). PRC state-sponsored cyber actors exploiting management interfaces and accessing critical infrastructure organizations (AA24-038A). 
+- CISA. (2024). PRC state-sponsored cyber actors exploiting management interfaces and accessing critical infrastructure organizations (AA24-038A). 
 https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a
-Microsoft. (2023, May 24). Volt Typhoon targets US critical infrastructure with living-off-the-land techniques. 
+- Microsoft. (2023, May 24). Volt Typhoon targets US critical infrastructure with living-off-the-land techniques. 
 https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/
-Microsoft. (2025). MDDR 2025: Government Executive Summary. 
+- Microsoft. (2025). MDDR 2025: Government Executive Summary. 
 https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/MDDR-2025-Government-Executive-Summary.pdf
-MITRE ATT&CK. (2025). T1003.001: OS Credential Dumping: LSASS Memory. https://attack.mitre.org/techniques/T1003/001/
-MITRE ATT&CK. (2025). T1003.003: OS Credential Dumping: NTDS. https://attack.mitre.org/techniques/T1003/003/
-MITRE ATT&CK. (2025). T1005: Data from Local System. https://attack.mitre.org/techniques/T1005/
-MITRE ATT&CK. (2025). T1018: Remote System Discovery. https://attack.mitre.org/techniques/T1018/
-MITRE ATT&CK. (2025). T1056.001: Input Capture: Keylogging. https://attack.mitre.org/techniques/T1056/001/
-MITRE ATT&CK. (2025). T1082: System Information Discovery. https://attack.mitre.org/techniques/T1082/
-MITRE ATT&CK. (2025). T1090: Proxy. https://attack.mitre.org/techniques/T1090/
-MITRE ATT&CK. (2025). T1190: Exploit Public-Facing Application. https://attack.mitre.org/techniques/T1190/
-MITRE ATT&CK. (2025). TA0009: Collection. https://attack.mitre.org/tactics/TA0009/
-MITRE ATT&CK. (2025). Volt Typhoon (G1017). https://attack.mitre.org/groups/G1017/
-National Security Agency. (2025, August 27). NSA and others provide guidance to counter China state-sponsored actors targeting critical infrastructure organizations. 
+- MITRE ATT&CK. (2025). T1003.001: OS Credential Dumping: LSASS Memory. https://attack.mitre.org/techniques/T1003/001/
+- MITRE ATT&CK. (2025). T1003.003: OS Credential Dumping: NTDS. https://attack.mitre.org/techniques/T1003/003/
+- MITRE ATT&CK. (2025). T1005: Data from Local System. https://attack.mitre.org/techniques/T1005/
+- MITRE ATT&CK. (2025). T1018: Remote System Discovery. https://attack.mitre.org/techniques/T1018/
+- MITRE ATT&CK. (2025). T1056.001: Input Capture: Keylogging. https://attack.mitre.org/techniques/T1056/001/
+- MITRE ATT&CK. (2025). T1082: System Information Discovery. https://attack.mitre.org/techniques/T1082/
+- MITRE ATT&CK. (2025). T1090: Proxy. https://attack.mitre.org/techniques/T1090/
+- MITRE ATT&CK. (2025). T1190: Exploit Public-Facing Application. https://attack.mitre.org/techniques/T1190/
+- MITRE ATT&CK. (2025). TA0009: Collection. https://attack.mitre.org/tactics/TA0009/
+- MITRE ATT&CK. (2025). Volt Typhoon (G1017). https://attack.mitre.org/groups/G1017/
+- National Security Agency. (2025, August 27). NSA and others provide guidance to counter China state-sponsored actors targeting critical infrastructure organizations. 
 https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/article/4287371/
 NSM. (2024). NSMs grunnprinsipper for IKT-sikkerhet (v2.1). 
 https://nsm.no/getfile.php/1313975-1717589722/NSM/Filer/Dokumenter/Veiledere/NSMs%20Grunnprinsipper%20for%20IKT-sikkerhet%20v2.1.pdf
