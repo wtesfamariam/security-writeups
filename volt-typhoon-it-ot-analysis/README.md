@@ -17,7 +17,7 @@ This grants them access without resorting to brute force attacks, allowing them 
 Next, they use the "Discovery" tactic to gather information about the system after gaining access (Microsoft, 2023). In doing so, they use several techniques, such as "System Information Discovery" (T1082) and "Remote System Discovery" (T1018) (MITRE ATT&CK, 2025). 
 Various Windows commands, such as `ping`, are used to locate other machines on the network.
 ### 4. Collection
-The next tactic is TA0009 Collection (MITRE ATT&CK, 2024). The techniques used include T1005 Data from Local System and T1056.001 Input Capture: Keylogging (MITRE ATT&CK, 2025); these are linked to the credential dumping technique, as the gathered information can be used later. 
+The next tactic is TA0009 Collection (MITRE ATT&CK, 2025). The techniques used include T1005 Data from Local System and T1056.001 Input Capture: Keylogging (MITRE ATT&CK, 2025); these are linked to the credential dumping technique, as the gathered information can be used later. 
 They create files to capture keystrokes from legitimate users and package the data into password protected files (MITRE ATT&CK, 2025).
 ### 5. Command and Control
 The final tactic Volt Typhoon relies on is Command and Control (Microsoft, 2023). This involves several techniques, primarily T1090 Proxy whereby they abuse compromised devices as proxies (such as FRP/Fast Reverse Proxy) to route traffic (MITRE ATT&CK, 2025). 
@@ -26,14 +26,14 @@ Volt Typhoon’s primary approach is "Living off the Land" (LotL): they log in u
 ## From IT to OT
 This type of threat actor can affect critical infrastructure in Norway in the same way described in the CISA report. According to CISA (CISA, 2024, AA24-038A), Volt Typhoon has compromised several critical infrastructure sectors, such as energy, transportation, communications, and water systems. 
 CISA reports that they initially gain a foothold by exploiting vulnerabilities in IT environments with the goal of being able to move into OT systems. 
-OT which stands for Operational Technology refers to systems that control physical processes such as power grids, water systems, and transportation (CISA, 2023). 
+OT (Operational Technology) refers to systems that control physical processes such as power grids, water systems, and transportation (CISA, 2023). 
 The interplay between IT and OT environments can create a significant challenge when threat actors gain access through vulnerable IT environments that communicate with OT systems.
 
 ## Mitigations
 In accordance with the NSM’s fundamental principles for ICT security (NSM, 2024), the following technical and organizational measures can help detect, mitigate, and manage the risk of compromise.
 ### Control Data Flow (NSM 2.5)
 To prevent lateral movement between networks and systems, implement measure 2.5: control data flow. This involves segmenting communication between networks so that only authorized devices and services can communicate with one another, and ensuring that particularly critical services have their own dedicated data flow. 
-It is important because it limits how far an attacker gets if they have already compromitted a system. For instance, segmentation can stop an attacker from moving from IT to OT.
+It is important because it limits how far an attacker gets if they have already compromised a system. For instance, segmentation can stop an attacker from moving from IT to OT.
 ### Secure Configuration (NSM 2.3)
 Maintain secure configurations, measure 2.3 (NSM, 2024). Configure systems by removing unnecessary functions. 
 Configurations should be reviewed regularly, and system updates performed promptly to prevent attackers from exploiting known vulnerabilities.
@@ -47,6 +47,8 @@ This is a crucial method for raising employee awareness and providing thorough t
 The geopolitical situation and the current intelligence threat landscape significantly impact national cybersecurity. State-sponsored activities, such as attacks on critical infrastructure, compel nations to better protect vital systems and plan for risk management. 
 Attackers can operate from countries where they face no repercussions, such as the Chinese group Volt Typhoon. The use of AI makes attacks more sophisticated and rapid, allowing them to spread quickly across multiple systems. 
 This underscores the importance of international cooperation. Consequently, national defence strategies must focus on regularly updating security measures, maintaining readiness to respond swiftly to incidents, and collaborating with other nations and organizations to halt threats before they result in severe consequences (Microsoft, 2025).
+
+In conclusion, Volt Typhoon has managed to remain active and stay hidden because they use legitimate accounts, the systems own tools (LotL) and proxies.
 ## References
 - Anson, S. (2020). Applied Incident Response. Wiley.
 - CISA. (2023). People's Republic of China state-sponsored cyber actor living off the land to evade detection (AA23-144A). 
@@ -71,5 +73,5 @@ https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/docu
 - MITRE ATT&CK. (2025). Volt Typhoon (G1017). https://attack.mitre.org/groups/G1017/
 - National Security Agency. (2025, August 27). NSA and others provide guidance to counter China state-sponsored actors targeting critical infrastructure organizations. 
 https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/article/4287371/
-NSM. (2024). NSMs grunnprinsipper for IKT-sikkerhet (v2.1). 
+- NSM. (2024). NSMs grunnprinsipper for IKT-sikkerhet (v2.1). 
 https://nsm.no/getfile.php/1313975-1717589722/NSM/Filer/Dokumenter/Veiledere/NSMs%20Grunnprinsipper%20for%20IKT-sikkerhet%20v2.1.pdf
